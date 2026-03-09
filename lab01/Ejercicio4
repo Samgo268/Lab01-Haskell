@@ -1,0 +1,6 @@
+take 5 (map (*2) [1..]) el resultado será [2, 4, 6, 8, 10] ya que solo tomara los numeros de 1 a 5 y el map los multiplicara a todos por 2
+precisamente gracias al take 5 es que no tiende a infinito
+
+misterio x y = if x > 10 then y * 2 else x + y
+misterio (5+7) (4*3)
+aqui x sera 5+7= 12 por lo que sera mayor a 10 y se cumplira la primera condicion. (4*3)*2=24
